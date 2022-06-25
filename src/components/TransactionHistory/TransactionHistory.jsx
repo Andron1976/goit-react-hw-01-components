@@ -3,9 +3,21 @@ import s from './transactionHistory.module.css';
 
 export const TransactionHistory = ({items}) => {
     return (
-<td className={s.transHist}>
+<>
+<table className={s.transactionHistory}>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Amount</th>
+      <th>Currency</th>
+    </tr>
+  </thead>
+  <tbody>
 {items.map((el) => (
           <TransactionHistoryItem key={el.id} items={el} />
         ))}
-</td>
+         </tbody>
+</table>
+</>
 )};
+
