@@ -1,0 +1,31 @@
+.item {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.avaliable, .unavaliable {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+}
+.avaliable {
+    background-color: green;
+}
+.unavaliable {
+    background-color: red;
+}
+.avatar {
+    border: 1px solid #a0a0a0;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}

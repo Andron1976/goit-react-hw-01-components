@@ -6,13 +6,13 @@ export const TransactionHistory = ({items}) => {
 <>
 <table className={s.transactionHistory}>
   <thead>
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
+    <tr className={s.tableHead}>
+      <th className={s.tableHeadName}>Type</th>
+      <th className={s.tableHeadName}>Amount</th>
+      <th className={s.tableHeadNameRight}>Currency</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody className={s.tableBody}>
 {items.map((el) => (
           <TransactionHistoryItem key={el.id} items={el} />
         ))}
