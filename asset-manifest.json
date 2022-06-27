@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Andron1976/goit-react-hw-01-components/static/css/main.e6c13ad2.css",
-    "main.js": "/Andron1976/goit-react-hw-01-components/static/js/main.b8fca745.js",
+    "main.css": "/Andron1976/goit-react-hw-01-components/static/css/main.bc2a9700.css",
+    "main.js": "/Andron1976/goit-react-hw-01-components/static/js/main.7b0e8cb5.js",
     "index.html": "/Andron1976/goit-react-hw-01-components/index.html",
-    "main.e6c13ad2.css.map": "/Andron1976/goit-react-hw-01-components/static/css/main.e6c13ad2.css.map",
-    "main.b8fca745.js.map": "/Andron1976/goit-react-hw-01-components/static/js/main.b8fca745.js.map"
+    "main.bc2a9700.css.map": "/Andron1976/goit-react-hw-01-components/static/css/main.bc2a9700.css.map",
+    "main.7b0e8cb5.js.map": "/Andron1976/goit-react-hw-01-components/static/js/main.7b0e8cb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.b8fca745.js"
+    "static/css/main.bc2a9700.css",
+    "static/js/main.7b0e8cb5.js"
   ]
 }
