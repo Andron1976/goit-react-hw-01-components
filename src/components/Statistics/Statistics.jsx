@@ -7,7 +7,7 @@ const colors = [
   'green',
   'yellow'
 ];
-export const Statistics = ({stats, title}) => {
+export const Statistics = ({stats, title} = {stats: {id: '', label: '', percentage: 0}, title: 'Title'}) => {
   console.log({stats});
 return (
 <section className={s.statistics}>
@@ -26,5 +26,5 @@ return (
 
 Statistics.propTypes = {
 title: PropTypes.string.isRequired,
-stats: PropTypes.shape({label: PropTypes.string, percentage: PropTypes.number}),
+stats: PropTypes.shape({id: PropTypes.string.isRequired, label: PropTypes.string.isRequired, percentage: PropTypes.number.isRequired}),
 };
